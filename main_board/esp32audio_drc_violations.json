@@ -1,0 +1,2924 @@
+{
+  "board": "/Users/ppisljar/Sonatino/kicad_project/esp32audio/esp32audio.kicad_pcb",
+  "timestamp": "2026-06-19T07:46:02",
+  "total_violations": 290,
+  "violation_counts": {
+    "tracks_crossing": 3,
+    "clearance": 4,
+    "shorting_items": 1,
+    "invalid_outline": 1,
+    "starved_thermal": 9,
+    "solder_mask_bridge": 2,
+    "silk_edge_clearance": 7,
+    "text_height": 1,
+    "silk_over_copper": 63,
+    "silk_overlap": 199
+  },
+  "severity_counts": {
+    "error": 20,
+    "warning": 270,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 59.7475,
+        "y": 42.6277,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 55.7045,
+        "y": 51.3582,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.0272 mm)",
+      "location": {
+        "x": 66.0,
+        "y": 38.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "tracks_crossing",
+      "severity": "error",
+      "message": "Tracks crossing",
+      "location": {
+        "x": 66.0,
+        "y": 38.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "shorting_items",
+      "severity": "error",
+      "message": "Items shorting two nets (nets SPK_R_NEG and SD_MISO)",
+      "location": {
+        "x": 66.0,
+        "y": 38.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 33.5,
+        "y": 40.2875,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 32.5,
+        "y": 41.7125,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "clearance",
+      "severity": "error",
+      "message": "Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)",
+      "location": {
+        "x": 33.0,
+        "y": 41.7125,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "invalid_outline",
+      "severity": "error",
+      "message": "Board has malformed outline (not a closed shape)",
+      "location": {
+        "x": 25.5,
+        "y": 17.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "starved_thermal",
+      "severity": "error",
+      "message": "Thermal relief connection to zone incomplete (layer B.Cu; zone min spoke count 2; actual 1)",
+      "location": {
+        "x": 15.0,
+        "y": 13.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Front solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 66.0,
+        "y": 38.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "solder_mask_bridge",
+      "severity": "error",
+      "message": "Front solder mask aperture bridges items with different nets",
+      "location": {
+        "x": 66.0,
+        "y": 38.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0600 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0600 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0600 mm)",
+      "location": {
+        "x": 25.500002,
+        "y": 16.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_edge_clearance",
+      "severity": "warning",
+      "message": "Silkscreen clipped by board edge (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0048 mm)",
+      "location": {
+        "x": 69.5,
+        "y": 17.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "text_height",
+      "severity": "warning",
+      "message": "Text height out of range (board setup constraints silk text height min height 0.8000 mm; actual 0.7000 mm)",
+      "location": {
+        "x": 38.39,
+        "y": 34.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0300 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0850 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0850 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0850 mm)",
+      "location": {
+        "x": 60.41,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0548 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 40.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0552 mm)",
+      "location": {
+        "x": 26.5,
+        "y": 16.46,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0550 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 37.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0443 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 37.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0555 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 37.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0602 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 37.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0162 mm)",
+      "location": {
+        "x": 54.647237,
+        "y": 33.7084,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 29.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 30.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 30.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0126 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 30.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.91,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 51.845563,
+        "y": 51.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 70.125,
+        "y": 47.975,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0521 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 43.8525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 51.7725,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 53.8925,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 35.99,
+        "y": 48.65,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.5,
+        "y": 44.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0770 mm)",
+      "location": {
+        "x": 36.5,
+        "y": 44.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0348 mm)",
+      "location": {
+        "x": 33.935,
+        "y": 40.574432,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0465 mm)",
+      "location": {
+        "x": 33.94,
+        "y": 40.28,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0848 mm)",
+      "location": {
+        "x": 38.261252,
+        "y": 40.735,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0284 mm)",
+      "location": {
+        "x": 36.5,
+        "y": 41.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 43.238748,
+        "y": 40.765,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0857 mm)",
+      "location": {
+        "x": 34.39,
+        "y": 15.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0936 mm)",
+      "location": {
+        "x": 38.39,
+        "y": 14.02,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0107 mm)",
+      "location": {
+        "x": 29.64,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 16.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.14,
+        "y": 37.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0207 mm)",
+      "location": {
+        "x": 63.89,
+        "y": 39.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.89,
+        "y": 39.61,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 34.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 34.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.654437,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 60.41,
+        "y": 34.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 60.41,
+        "y": 40.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.875,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.875,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.875,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.89,
+        "y": 40.86,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.99,
+        "y": 38.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.99,
+        "y": 39.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.09,
+        "y": 38.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 65.5,
+        "y": 40.56,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 38.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 38.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 35.05,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 37.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 38.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 38.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0770 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 37.4,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0770 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 37.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0214 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 37.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 37.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.5553,
+        "y": 28.4509,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 32.643963,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 32.643963,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 32.643963,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.647237,
+        "y": 33.7084,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0244 mm)",
+      "location": {
+        "x": 54.647237,
+        "y": 33.7084,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 60.4028,
+        "y": 33.7084,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.94905,
+        "y": 28.05715,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 27.952837,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 27.952837,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.5828,
+        "y": 27.952837,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 54.647237,
+        "y": 26.8884,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 60.4028,
+        "y": 26.8884,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 39.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 66.8,
+        "y": 40.56,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 40.56,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0791 mm)",
+      "location": {
+        "x": 67.125,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.89,
+        "y": 32.11,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.89,
+        "y": 33.36,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0707 mm)",
+      "location": {
+        "x": 63.99,
+        "y": 31.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 63.99,
+        "y": 31.6,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.09,
+        "y": 31.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0421 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 30.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0707 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 31.3,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 27.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 27.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0009 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 29.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 30.5,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.8,
+        "y": 32.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 65.5,
+        "y": 33.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 66.8,
+        "y": 33.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0232 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 33.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 29.9,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0613 mm)",
+      "location": {
+        "x": 67.8,
+        "y": 30.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 30.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 30.1,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 65.5,
+        "y": 26.94,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 65.5,
+        "y": 26.94,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 66.8,
+        "y": 26.94,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 27.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 27.55,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 32.45,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 33.06,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0869 mm)",
+      "location": {
+        "x": 52.95625,
+        "y": 35.25875,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.95625,
+        "y": 35.25875,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0107 mm)",
+      "location": {
+        "x": 53.59,
+        "y": 35.154437,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0107 mm)",
+      "location": {
+        "x": 53.59,
+        "y": 35.154437,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0107 mm)",
+      "location": {
+        "x": 53.59,
+        "y": 35.154437,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.59,
+        "y": 39.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.59,
+        "y": 39.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0869 mm)",
+      "location": {
+        "x": 52.5625,
+        "y": 35.6525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.5625,
+        "y": 35.6525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 40.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0392 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 40.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0876 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 40.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0823 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.91,
+        "y": 45.09,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 40.43,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0068 mm)",
+      "location": {
+        "x": 47.64058,
+        "y": 38.49,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.64058,
+        "y": 39.51,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.14,
+        "y": 49.34,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 37.39,
+        "y": 49.34,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 37.39,
+        "y": 49.34,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 37.9,
+        "y": 49.44,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 38.2,
+        "y": 49.44,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 38.2,
+        "y": 49.54,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0136 mm)",
+      "location": {
+        "x": 38.2,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0242 mm)",
+      "location": {
+        "x": 39.0,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.0,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.0,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0400 mm)",
+      "location": {
+        "x": 39.0,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0771 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 50.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 52.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0395 mm)",
+      "location": {
+        "x": 37.05,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.4,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.4,
+        "y": 53.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.5,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 39.6,
+        "y": 53.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 40.0,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0347 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0958 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 50.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0347 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0313 mm)",
+      "location": {
+        "x": 41.95,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0569 mm)",
+      "location": {
+        "x": 42.56,
+        "y": 50.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 42.56,
+        "y": 52.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 42.56,
+        "y": 52.25,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 37.05,
+        "y": 53.75,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.44,
+        "y": 49.64,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0360 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 46.09,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.154437,
+        "y": 51.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0753 mm)",
+      "location": {
+        "x": 47.154437,
+        "y": 51.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.25875,
+        "y": 52.54375,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 47.6525,
+        "y": 52.9375,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 51.845563,
+        "y": 51.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 51.845563,
+        "y": 51.91,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.91,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.91,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.91,
+        "y": 50.845563,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 65.5,
+        "y": 34.44,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 66.8,
+        "y": 34.44,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 35.05,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.19,
+        "y": 40.56,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.3,
+        "y": 39.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 64.575,
+        "y": 54.435,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.285,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.285,
+        "y": 41.565,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 68.285,
+        "y": 54.435,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 26.5,
+        "y": 16.46,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.12,
+        "y": 17.46,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.12,
+        "y": 18.84,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.12,
+        "y": 20.11,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.12,
+        "y": 32.92,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 26.261252,
+        "y": 41.265,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 26.261252,
+        "y": 42.735,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 25.12,
+        "y": 20.11,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0667 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 27.89,
+        "y": 19.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 43.8525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 43.8525,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 46.8725,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 46.8725,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 24.795,
+        "y": 51.7725,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.52,
+        "y": 49.16,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 36.52,
+        "y": 49.16,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 45.346359,
+        "y": 51.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 45.346359,
+        "y": 51.12,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 45.346359,
+        "y": 51.88,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 45.346359,
+        "y": 51.88,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0186 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 52.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0821 mm)",
+      "location": {
+        "x": 47.5,
+        "y": 52.66,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 47.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 47.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 47.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 47.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0698 mm)",
+      "location": {
+        "x": 35.824,
+        "y": 41.551,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0507 mm)",
+      "location": {
+        "x": 33.984,
+        "y": 45.211,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0801 mm)",
+      "location": {
+        "x": 33.984,
+        "y": 45.211,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 52.33,
+        "y": 42.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 51.62,
+        "y": 42.153641,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 51.62,
+        "y": 42.153641,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0381 mm)",
+      "location": {
+        "x": 52.33,
+        "y": 42.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 52.38,
+        "y": 42.153641,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 52.38,
+        "y": 42.153641,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 64.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 64.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 64.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 64.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 53.12,
+        "y": 41.846359,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 53.12,
+        "y": 41.846359,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 53.88,
+        "y": 41.846359,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 53.88,
+        "y": 41.846359,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.17,
+        "y": 42.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 53.17,
+        "y": 42.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1000 mm; actual 0.0000 mm)",
+      "location": {
+        "x": 60.5,
+        "y": 44.16,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 61.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 61.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 61.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 61.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 58.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 58.346359,
+        "y": 52.62,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 58.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 58.346359,
+        "y": 53.38,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 30.137641,
+        "y": 36.671,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 30.137641,
+        "y": 36.671,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 30.137641,
+        "y": 37.431,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 30.137641,
+        "y": 37.431,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 29.830359,
+        "y": 38.671,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 29.830359,
+        "y": 38.671,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 29.830359,
+        "y": 39.431,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask (rule 'Solder mask sliver' clearance 0.1 mm; actual 0.099999 mm)",
+      "location": {
+        "x": 29.830359,
+        "y": 39.431,
+        "unit": "mm"
+      }
+    }
+  ]
+}

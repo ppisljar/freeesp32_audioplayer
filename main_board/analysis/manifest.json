@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "project": "esp32audio.kicad_pro",
+  "current": "2026-06-19_1259",
+  "runs": {
+    "2026-06-18_1134": {
+      "source_hashes": {
+        "esp32audio.kicad_sch": "sha256:8aa3f3d0426824eaf20b8659aa315e246b8495da1167b2e4a87818fde254f86a",
+        "esp32audio.kicad_pcb": "sha256:daba30448d126bbc057b20e69bd0d7fe351a068037c7fb852b56f96c50046ca7",
+        "schematic.json": "sha256:3b62fe427627c444826ebd4d14f593ce1d2df58cf38afeb879459f710411982b",
+        "pcb.json": "sha256:5398e168bc8f2070cb58566cf8fe58971f2c01ea36db7cf82145ca4674f7d7d2"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py esp32audio.kicad_sch"
+      },
+      "generated": "2026-06-18T11:42:41+02:00",
+      "pinned": false
+    },
+    "2026-06-18_1142": {
+      "source_hashes": {
+        "schematic.json": "sha256:3b62fe427627c444826ebd4d14f593ce1d2df58cf38afeb879459f710411982b",
+        "pcb.json": "sha256:ac05dafd781c2384d2f920cd4f1516fe91dc2f5d1d4211ae42be28c242d20fa4",
+        "esp32audio.kicad_pcb": "sha256:c2a33b6277edeb91ee53f2b1db5e2a8394f447674b5be663c648272d408696a4"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-18T11:43:18+02:00",
+      "pinned": false
+    },
+    "2026-06-19_0704": {
+      "source_hashes": {
+        "esp32audio.kicad_sch": "sha256:8a6c8ec2ec517943278bee0308539b0868f23d4337ecba755261c2109d18c6ae"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py esp32audio.kicad_sch"
+      },
+      "generated": "2026-06-19T07:04:47+02:00",
+      "pinned": false
+    },
+    "2026-06-19_0704-2": {
+      "source_hashes": {
+        "esp32audio.kicad_pcb": "sha256:3921fd4531b9b3b7b1650e0f3167f5bc453bce8b84eb69be54d7e90ef385e307"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "pcb": "analyze_pcb.py esp32audio.kicad_pcb"
+      },
+      "generated": "2026-06-19T07:04:48+02:00",
+      "pinned": false
+    },
+    "2026-06-19_0704-3": {
+      "source_hashes": {
+        "schematic.json": "sha256:e5a0e85c59faa485a065ddb0fe2e61752911d6b1d6b96f7fad78a454f52ee11b",
+        "pcb.json": "sha256:e210a1ccc0159981c9cd2482ad994626b211fd8290d107fae3dfe13092392402",
+        "esp32audio.kicad_pcb": "sha256:fc243e409bb0e07bee9b26190178b8b973ef361cfad2590ff3c8e864ab58d638"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-19T07:24:06+02:00",
+      "pinned": false
+    },
+    "2026-06-19_0724": {
+      "source_hashes": {
+        "schematic.json": "sha256:e5a0e85c59faa485a065ddb0fe2e61752911d6b1d6b96f7fad78a454f52ee11b",
+        "pcb.json": "sha256:69f7e89f83baff2cd92e1019b3490f603e4191532b6aa90e521b771bd4a5ac8d",
+        "esp32audio.kicad_sch": "sha256:8a6c8ec2ec517943278bee0308539b0868f23d4337ecba755261c2109d18c6ae",
+        "esp32audio.kicad_pcb": "sha256:e91c980a52996d37aba85380013319ca6d903cff5868e634ec05c8ace65d1af5"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-19T07:54:56+02:00",
+      "pinned": false
+    },
+    "2026-06-19_0754": {
+      "source_hashes": {
+        "schematic.json": "sha256:e5a0e85c59faa485a065ddb0fe2e61752911d6b1d6b96f7fad78a454f52ee11b",
+        "pcb.json": "sha256:9cac7b55ce2ceda2f753f599ae4673d66843b0e16af37cb12cace833a338c109"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-19T07:54:56+02:00",
+      "pinned": false
+    },
+    "2026-06-19_1213": {
+      "source_hashes": {
+        "esp32audio.kicad_sch": "sha256:1a5a9e6347632c6d3f07c108872fa4d92f037f8f3dff88e73bae159ad17df3b8"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py esp32audio.kicad_sch"
+      },
+      "generated": "2026-06-19T12:13:20+02:00",
+      "pinned": false
+    },
+    "2026-06-19_1213-2": {
+      "source_hashes": {
+        "esp32audio.kicad_pcb": "sha256:c3bd387d6966573e178e4f54079283b2080944f8eb329febc3b185133e3f5ce6"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "pcb": "analyze_pcb.py esp32audio.kicad_pcb"
+      },
+      "generated": "2026-06-19T12:13:21+02:00",
+      "pinned": false
+    },
+    "2026-06-19_1213-3": {
+      "source_hashes": {
+        "schematic.json": "sha256:b85ab3e4a675132a844b1a329c5eeff75cb6dcd65c41e7930c0046d80d58d074",
+        "pcb.json": "sha256:b02d18b319110d3438d41e4c03b16c06d81230ea59640cf0641fa0bf43dc2087",
+        "esp32audio.kicad_sch": "sha256:1a5a9e6347632c6d3f07c108872fa4d92f037f8f3dff88e73bae159ad17df3b8",
+        "esp32audio.kicad_pcb": "sha256:1dde2fbaed8825163357c3fcb5eeeed9240c7efcf3bf9b1b2b14233314429805"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-19T12:59:02+02:00",
+      "pinned": false
+    },
+    "2026-06-19_1259": {
+      "source_hashes": {
+        "schematic.json": "sha256:b85ab3e4a675132a844b1a329c5eeff75cb6dcd65c41e7930c0046d80d58d074",
+        "pcb.json": "sha256:d4c7ce8cc412f5c289f586cf4afe4131b983cec12025b3a3c12a847c7c6d25e6"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "thermal": "thermal.json",
+        "emc": "emc.json"
+      },
+      "scripts": {
+        "emc": "analyze_emc.py"
+      },
+      "generated": "2026-06-19T12:59:02+02:00",
+      "pinned": false
+    }
+  }
+}

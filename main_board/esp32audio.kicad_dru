@@ -1,0 +1,88 @@
+(version 1)
+
+# ============================================================
+# esp32audio — Custom design rules for PCBWay (2-layer, 1oz, FR-4)
+# ============================================================
+#
+# PCBWay's documented minimums (don't push to the limit — keep margin):
+#   trace width    >= 0.10 mm  (4 mil)  — we use 0.127 mm (5 mil)
+#   trace spacing  >= 0.10 mm  (4 mil)  — we use 0.15 mm (6 mil)
+#   via drill      >= 0.15 mm           — we use 0.30 mm (cheaper, standard)
+#   via diameter   >= 0.30 mm           — we use 0.60 mm pad
+#   annular ring   >= 0.13 mm           — we use 0.15 mm
+#   edge clearance >= 0.30 mm           — we use 0.50 mm
+#   hole-to-hole   >= 0.50 mm           — we use 0.50 mm
+#   silkscreen     >= 0.15 mm line, 0.8 mm text height min
+#
+# These come from the kicad-happy pcbway skill reference. The main
+# rules live in esp32audio.kicad_pro -> board.design_settings.rules.
+# This file adds NET-CLASS-SPECIFIC and CONSTRAINT-SPECIFIC rules
+# that the GUI Board Setup dialog doesn't expose.
+
+# ------------------------------------------------------------
+# Power nets: wider clearance, thicker tracks
+# Applies to +5V, BAT+, BOOST_OUT, BOOST_SW (high di/dt)
+# ------------------------------------------------------------
+(rule "Power net clearance"
+    (condition "A.NetClass == 'Power' || B.NetClass == 'Power'")
+    (constraint clearance (min 0.20mm))
+)
+
+(rule "Power net width"
+    (condition "A.NetClass == 'Power'")
+    (constraint track_width (min 0.40mm))
+)
+
+# ------------------------------------------------------------
+# Speaker outputs: BTL pairs — wider tracks, keep coupling tight
+# ------------------------------------------------------------
+(rule "Speaker track width"
+    (condition "A.NetClass == 'Speaker'")
+    (constraint track_width (min 0.35mm))
+)
+
+# ------------------------------------------------------------
+# Audio analog: protect from coupling, keep narrow but disciplined
+# ------------------------------------------------------------
+(rule "Audio net spacing"
+    (condition "A.NetClass == 'Audio' || B.NetClass == 'Audio'")
+    (constraint clearance (min 0.20mm))
+)
+
+# ------------------------------------------------------------
+# Edge clearance — PCBWay needs >= 0.3 mm copper-to-edge.
+# We set 0.5 mm in board.design_settings.rules already. This
+# adds a redundant explicit rule so any new copper is flagged.
+# ------------------------------------------------------------
+(rule "Board edge clearance"
+    (condition "A.Type == 'Track' || A.Type == 'Via' || A.Type == 'Pad' || A.Type == 'Zone'")
+    (constraint edge_clearance (min 0.5mm))
+)
+
+# ------------------------------------------------------------
+# Solder-mask sliver — bridges < 0.1 mm between adjacent
+# soldermask openings are not reliably reproducible. PCBWay's
+# practical minimum is ~0.1 mm dam between two openings.
+# ------------------------------------------------------------
+(rule "Solder mask sliver"
+    (constraint silk_clearance (min 0.1mm))
+)
+
+# ------------------------------------------------------------
+# I2S nets: clock-bearing, want continuous return path. The
+# real fix is layout (no plane gaps under these), but flag any
+# trace narrower than 0.18 mm so we notice.
+# ------------------------------------------------------------
+(rule "I2S minimum width"
+    (condition "A.NetClass == 'I2S'")
+    (constraint track_width (min 0.18mm))
+)
+
+# ------------------------------------------------------------
+# Mechanical: hole-to-hole min PCBWay 0.5 mm, our 0.5 mm is OK
+# (already in pro file as min_hole_to_hole 0.25 — bump to 0.5
+# via this rule for safety)
+# ------------------------------------------------------------
+(rule "Hole-to-hole spacing"
+    (constraint hole_to_hole (min 0.5mm))
+)

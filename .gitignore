@@ -1,0 +1,29 @@
+# --- macOS ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- KiCad ---
+# Auto-save / backup directories KiCad creates on every save
+*-backups/
+# Footprint info cache (regenerable)
+fp-info-cache
+# Per-user project-local UI state (open tabs, zoom, last layer)
+*.kicad_prl
+# Runtime lock files
+~*.lck
+# Generic backup
+*.bak
+
+# --- IDE / tooling caches ---
+# VSCode local-history extension (per-save snapshots, can balloon to 100+ MB)
+.history/
+# KiCad MCP server timestamped backups
+.mcp-backups/
+.vscode/
+.idea/
+
+# --- Python helper scripts ---
+__pycache__/
+*.pyc
+*.pyo

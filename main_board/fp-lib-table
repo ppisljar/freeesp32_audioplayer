@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "New_Library") (type "KiCad") (uri "/Users/ppisljar/Sonatino/kicad_project/New_Library.pretty") (options "") (descr "Project-local footprints for Sonatino kicad_project"))
+)
