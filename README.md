@@ -24,6 +24,41 @@ design rules, 3D models, datasheets, and helper scripts.
 - **LED outputs**: configurable headers — works with NeoPixel (WS2812),
   DotStar (APA102), or direct PWM strips (the firmware picks the backend)
 
+## Power
+
+The board can be powered any of three ways. The 5 V rail feeds the speaker
+amplifier (APA2068), and the XIAO's onboard LDO derives the 3.3 V rail
+that feeds the DAC (CS4344) and the MCU itself.
+
+| Source | Connector | Voltage | Notes |
+|---|---|---|---|
+| **USB-C** | XIAO ESP32-S3 onboard | 5 V (USB VBUS) | Also used for flashing firmware and the serial console. The default during development. |
+| **External 5 V** | `J4` — JST PH 2-pin (`V+_EXT`) | 5 V regulated | For powering from a bench supply, wall adapter, or upstream USB-PD trigger. |
+| **Li-ion battery** | `J5` — JST PH 2-pin (`BATTERY`) | 3.0 – 4.2 V | Connects to the XIAO's `BAT+` pin. The XIAO's built-in charger manages the cell when USB is also plugged in. |
+
+### Battery-powered audio
+
+A single Li-ion cell sits below the 5 V needed by the speaker amplifier,
+so the board includes a **TPS61023 synchronous boost converter** (`U4`)
+that lifts `BAT+` up to 5 V. Output is fed into the 5 V rail through a
+Schottky diode (`D1`) so the boost output can't backfeed USB VBUS when
+both USB and battery are connected.
+
+This means the speaker output works on battery just as well as on USB —
+no compromise.
+
+### Combining sources — what's safe
+
+| Combination | Safe? | Why |
+|---|---|---|
+| USB + battery | ✅ Yes | XIAO charges the cell; `D1` blocks the boost from feeding USB. |
+| USB + external 5 V (`J4`) | ❌ **No — pick one** | Both feed the 5 V rail directly. Hot-swapping risks back-feeding the upstream supply. |
+| External 5 V + battery | ✅ Yes | Same reasoning as USB + battery — `D1` isolates the boost. |
+
+> **Tip**: if you intend to deploy the board untethered in a meditation
+> session, leave USB unplugged once you've flashed the firmware. The
+> XIAO's USB controller draws current even when the host is idle.
+
 ## Repository layout
 
 ```
